@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Test/coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checking/linting
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env
+.env.*
+
+# Local caches
+.cache/
+
+# Emotion local artifacts
+data/emotion/raw/*
+data/emotion/processed/*
+data/emotion/splits/*.jsonl
+models/emotion/*
+
+!data/emotion/raw/.gitkeep
+!data/emotion/processed/.gitkeep
+!data/emotion/splits/.gitkeep
+!models/emotion/.gitkeep
+

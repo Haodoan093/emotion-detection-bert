@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-04-23T17:10:09.325836+00:00",
+  "model": "models/emotion/bench/xlm_uit/best",
+  "device": "auto",
+  "samples": 806,
+  "metrics": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "love",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.47146401985111663,
+    "macro_f1": 0.163347992967391,
+    "per_label": {
+      "anger": {
+        "precision": 0.2727272727272727,
+        "recall": 0.02727272727272727,
+        "f1": 0.04958677685950413,
+        "support": 110.0
+      },
+      "disgust": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "fear": {
+        "precision": 0.15,
+        "recall": 0.03225806451612903,
+        "f1": 0.053097345132743355,
+        "support": 93.0
+      },
+      "joy": {
+        "precision": 0.7004048582995951,
+        "recall": 0.6360294117647058,
+        "f1": 0.6666666666666667,
+        "support": 272.0
+      },
+      "love": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 67.0
+      },
+      "neutral": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "sadness": {
+        "precision": 0.39105058365758755,
+        "recall": 0.8589743589743589,
+        "f1": 0.5374331550802138,
+        "support": 234.0
+      },
+      "surprise": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        7,
+        9,
+        0,
+        1,
+        90,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        3,
+        8,
+        0,
+        0,
+        81,
+        0
+      ],
+      [
+        2,
+        2,
+        3,
+        173,
+        0,
+        3,
+        89,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        33,
+        0,
+        1,
+        32,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        7,
+        6,
+        15,
+        0,
+        0,
+        201,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        21,
+        0
+      ]
+    ],
+    "support": {
+      "anger": 110,
+      "disgust": 0,
+      "fear": 93,
+      "joy": 272,
+      "love": 67,
+      "neutral": 0,
+      "sadness": 234,
+      "surprise": 30
+    }
+  },
+  "errors": [
+    {
+      "text": "i had become incredibly bored of the cod forumula and mw left me feeling very unsure about the future of this series",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.279564768075943
+    },
+    {
+      "text": "i feel shy that time",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.4205348789691925
+    },
+    {
+      "text": "i feel the most loved",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.3120895028114319
+    },
+    {
+      "text": "i dont know what i feel now or what should i called this feeling now its so weird for me",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.2615867555141449
+    },
+    {
+      "text": "i feel dumb and desperate bite my tongue as he bites in his talk until need rises then sweet in his beg a gigolo who belittles and strikes deathing blows to my generous but",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.302253395318985
+    },
+    {
+      "text": "i am plagued by awkward feelings the charming tale of a not so charming gal named me",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.4239617884159088
+    },
+    {
+      "text": "i feel oddly nostalgic for some sensations from those times though i do not feel at all nostalgic for the times themselves",
+      "gold": "love",
+      "pred": "sadness",
+      "score": 0.31450673937797546
+    },
+    {
+      "text": "i never feel rushed when im with her it doesnt feel like i need to get what im saying out faster or else shell get bored",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.2619929015636444
+    },
+    {
+      "text": "i start eating again it is super easy and i do not in any way feel deprived",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.24644745886325836
+    },
+    {
+      "text": "i will never be a christian so the meaning of christmas to me is purely secular and when i am feeling rebellious a little bit pagan",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.21336549520492554
+    },
+    {
+      "text": "im left feeling grumpy and irritated far removed from being happy or merry over the nonsense argument as a whole",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.267993301153183
+    },
+    {
+      "text": "i cant help but feel a little stunned not so much because shes around again but because shes around again and i feel like im all over again",
+      "gold": "surprise",
+      "pred": "sadness",
+      "score": 0.28779473900794983
+    },
+    {
+      "text": "i feel irritable and there are so many things that are bothering me even though i know they aren t a big enough deal to justify making me this crazy",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.2711910307407379
+    },
+    {
+      "text": "i wonder why i feel so violent towards them every so often",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.38041648268699646
+    },
+    {
+      "text": "i feel more like i am just shy and have some anxiety but nothing like aspergers",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.3152003586292267
+    },
+    {
+      "text": "i even feel uncomfortable when i get more out of sex than the other person",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.28086310625076294
+    },
+    {
+      "text": "i liked feeling useful and being needed it eased my own insecurities of being accepted and not rejected",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.22527480125427246
+    },
+    {
+      "text": "i am a substrate but seek to be a product of something more than a corporeal feeling something mysteriously divine and ethereal",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.21570833027362823
+    },
+    {
+      "text": "i don t feel like it s very sincere",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.34716275334358215
+    },
+    {
+      "text": "ill come here if im feeling naughty",
+      "gold": "love",
+      "pred": "sadness",
+      "score": 0.38587313890457153
+    }
+  ]
+}

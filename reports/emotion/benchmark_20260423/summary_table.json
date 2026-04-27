@@ -1,0 +1,58 @@
+[
+  {
+    "file": "eval_distil_kaggle8k_on_kaggle8k.json",
+    "model": "models/emotion/bench/distil_kaggle8k/best",
+    "samples": 806,
+    "accuracy": 0.7084367245657568,
+    "macro_f1": 0.6924399619958552
+  },
+  {
+    "file": "eval_distil_kaggle8k_on_uit.json",
+    "model": "models/emotion/bench/distil_kaggle8k/best",
+    "samples": 697,
+    "accuracy": 0.29555236728837875,
+    "macro_f1": 0.09634329922445169
+  },
+  {
+    "file": "eval_distil_uit_on_kaggle8k.json",
+    "model": "models/emotion/bench/distil_uit/best",
+    "samples": 806,
+    "accuracy": 0.3225806451612903,
+    "macro_f1": 0.11266862634778223
+  },
+  {
+    "file": "eval_distil_uit_on_uit.json",
+    "model": "models/emotion/bench/distil_uit/best",
+    "samples": 697,
+    "accuracy": 0.4490674318507891,
+    "macro_f1": 0.4091994342164023
+  },
+  {
+    "file": "eval_xlm_kaggle8k_on_kaggle8k.json",
+    "model": "models/emotion/bench/xlm_kaggle8k/best",
+    "samples": 806,
+    "accuracy": 0.5062034739454094,
+    "macro_f1": 0.29224944808195946
+  },
+  {
+    "file": "eval_xlm_kaggle8k_on_uit.json",
+    "model": "models/emotion/bench/xlm_kaggle8k/best",
+    "samples": 697,
+    "accuracy": 0.3486370157819225,
+    "macro_f1": 0.15528054363682153
+  },
+  {
+    "file": "eval_xlm_uit_on_kaggle8k.json",
+    "model": "models/emotion/bench/xlm_uit/best",
+    "samples": 806,
+    "accuracy": 0.47146401985111663,
+    "macro_f1": 0.163347992967391
+  },
+  {
+    "file": "eval_xlm_uit_on_uit.json",
+    "model": "models/emotion/bench/xlm_uit/best",
+    "samples": 697,
+    "accuracy": 0.4418938307030129,
+    "macro_f1": 0.3174489521366008
+  }
+]

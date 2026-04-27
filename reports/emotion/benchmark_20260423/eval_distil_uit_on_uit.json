@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-04-23T17:06:44.689693+00:00",
+  "model": "models/emotion/bench/distil_uit/best",
+  "device": "auto",
+  "samples": 697,
+  "metrics": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.4490674318507891,
+    "macro_f1": 0.4091994342164023,
+    "per_label": {
+      "anger": {
+        "precision": 0.20270270270270271,
+        "recall": 0.3125,
+        "f1": 0.2459016393442623,
+        "support": 48.0
+      },
+      "disgust": {
+        "precision": 0.4186046511627907,
+        "recall": 0.26666666666666666,
+        "f1": 0.3257918552036199,
+        "support": 135.0
+      },
+      "fear": {
+        "precision": 0.5555555555555556,
+        "recall": 0.375,
+        "f1": 0.44776119402985076,
+        "support": 40.0
+      },
+      "joy": {
+        "precision": 0.6084656084656085,
+        "recall": 0.583756345177665,
+        "f1": 0.5958549222797928,
+        "support": 197.0
+      },
+      "neutral": {
+        "precision": 0.4205607476635514,
+        "recall": 0.3488372093023256,
+        "f1": 0.3813559322033898,
+        "support": 129.0
+      },
+      "sadness": {
+        "precision": 0.4397590361445783,
+        "recall": 0.6293103448275862,
+        "f1": 0.5177304964539006,
+        "support": 116.0
+      },
+      "surprise": {
+        "precision": 0.2916666666666667,
+        "recall": 0.4375,
+        "f1": 0.35000000000000003,
+        "support": 32.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        12,
+        3,
+        5,
+        8,
+        1,
+        4
+      ],
+      [
+        28,
+        36,
+        3,
+        24,
+        11,
+        22,
+        11
+      ],
+      [
+        5,
+        5,
+        15,
+        6,
+        4,
+        4,
+        1
+      ],
+      [
+        7,
+        13,
+        1,
+        115,
+        17,
+        37,
+        7
+      ],
+      [
+        8,
+        13,
+        4,
+        21,
+        45,
+        28,
+        10
+      ],
+      [
+        11,
+        3,
+        1,
+        9,
+        18,
+        73,
+        1
+      ],
+      [
+        0,
+        4,
+        0,
+        9,
+        4,
+        1,
+        14
+      ]
+    ],
+    "support": {
+      "anger": 48,
+      "disgust": 135,
+      "fear": 40,
+      "joy": 197,
+      "neutral": 129,
+      "sadness": 116,
+      "surprise": 32
+    }
+  },
+  "errors": [
+    {
+      "text": "nhớ hồi euro 2012 rực sáng trong màu áo tuyển ý , ghi mấy bàn mà bàn nào cũng thấy phê .",
+      "gold": "joy",
+      "pred": "neutral",
+      "score": 0.2883656919002533
+    },
+    {
+      "text": "cái thứ 2 mình thấy lạ lòn , bạn gái người ta ăn , quên chỉnh tóc . người ta chỉnh lại tóc dùm bạn gái mắc gì 2 đứa nó thái độ 😑😑",
+      "gold": "disgust",
+      "pred": "anger",
+      "score": 0.36545005440711975
+    },
+    {
+      "text": "tình yêu là lời nói dối của 1 thằng khùng được tin bởi 1 con ngu 🤣🤣",
+      "gold": "disgust",
+      "pred": "sadness",
+      "score": 0.34873637557029724
+    },
+    {
+      "text": "mấy con yêu nghiệt ngày xưa nội có nuôi 2 con cứ ra đằng sau là nó dí chạy muốn tuột mẹ quần 🙄🙄",
+      "gold": "fear",
+      "pred": "anger",
+      "score": 0.29655367136001587
+    },
+    {
+      "text": "cho phải công bằng , nếu không anh chị em không hoà thuận ...",
+      "gold": "neutral",
+      "pred": "sadness",
+      "score": 0.542129635810852
+    },
+    {
+      "text": "giun xào tỏi , đỉa xào lăn , cứt nấu đông , hỉ mũi rang cơm trộn với đờm , tởm vãi",
+      "gold": "disgust",
+      "pred": "anger",
+      "score": 0.37996336817741394
+    },
+    {
+      "text": "không có gì là tồn tại mãi nhỉ",
+      "gold": "sadness",
+      "pred": "neutral",
+      "score": 0.3249293267726898
+    },
+    {
+      "text": "tao tưởng nó té cái đùng chứ . làm ngồi chờ mãi mỏi cả mắt",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.3970770239830017
+    },
+    {
+      "text": "nhớp nhúa",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.26128721237182617
+    },
+    {
+      "text": "tiền mất tật mang . xe đã nát rồi giờ còn phải đền cách cửa cho tàu nửa",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.26345986127853394
+    },
+    {
+      "text": "còn nhiều người khổ hơn mình :))",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.3627959191799164
+    },
+    {
+      "text": "trông tội vãi",
+      "gold": "sadness",
+      "pred": "fear",
+      "score": 0.2542291581630707
+    },
+    {
+      "text": "sang năm quyêt định đi ngủ cho đỡ mỏi mắt",
+      "gold": "neutral",
+      "pred": "sadness",
+      "score": 0.37119266390800476
+    },
+    {
+      "text": "wow vừa vẽ đẹp lại còn biết sáng tạo :))",
+      "gold": "surprise",
+      "pred": "joy",
+      "score": 0.43024733662605286
+    },
+    {
+      "text": "per lắp đi , chứ tốn tiền điện thoại lắm",
+      "gold": "neutral",
+      "pred": "disgust",
+      "score": 0.2639060616493225
+    },
+    {
+      "text": "đây chính là lý do tao giảm cân toàn thất bại",
+      "gold": "sadness",
+      "pred": "neutral",
+      "score": 0.31039854884147644
+    },
+    {
+      "text": "per ở quê ve sầu kêu chưa chúng mày",
+      "gold": "neutral",
+      "pred": "disgust",
+      "score": 0.2704770863056183
+    },
+    {
+      "text": "cái này ở shop đồng giá 40k aeon có nè , tê tới dái luôn",
+      "gold": "joy",
+      "pred": "disgust",
+      "score": 0.3025337755680084
+    },
+    {
+      "text": "hình như xe biển xanh",
+      "gold": "neutral",
+      "pred": "surprise",
+      "score": 0.23673750460147858
+    },
+    {
+      "text": "tinh trùng đâu lắm thế",
+      "gold": "surprise",
+      "pred": "neutral",
+      "score": 0.26783403754234314
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-04-24T11:07:53.236656+00:00",
+  "model": "models/emotion/bench/distil_kaggle8k_e3/best",
+  "device": "auto",
+  "samples": 806,
+  "metrics": {
+    "labels": [
+      "anger",
+      "fear",
+      "joy",
+      "love",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.913151364764268,
+    "macro_f1": 0.8984337689104446,
+    "per_label": {
+      "anger": {
+        "precision": 0.9203539823008849,
+        "recall": 0.9454545454545454,
+        "f1": 0.9327354260089686,
+        "support": 110.0
+      },
+      "fear": {
+        "precision": 0.963855421686747,
+        "recall": 0.8602150537634409,
+        "f1": 0.909090909090909,
+        "support": 93.0
+      },
+      "joy": {
+        "precision": 0.9496124031007752,
+        "recall": 0.9007352941176471,
+        "f1": 0.9245283018867925,
+        "support": 272.0
+      },
+      "love": {
+        "precision": 0.8378378378378378,
+        "recall": 0.9253731343283582,
+        "f1": 0.8794326241134752,
+        "support": 67.0
+      },
+      "sadness": {
+        "precision": 0.897119341563786,
+        "recall": 0.9316239316239316,
+        "f1": 0.9140461215932915,
+        "support": 234.0
+      },
+      "surprise": {
+        "precision": 0.7714285714285715,
+        "recall": 0.9,
+        "f1": 0.8307692307692307,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        104,
+        0,
+        2,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        80,
+        1,
+        0,
+        6,
+        6
+      ],
+      [
+        1,
+        0,
+        245,
+        11,
+        13,
+        2
+      ],
+      [
+        0,
+        0,
+        3,
+        62,
+        2,
+        0
+      ],
+      [
+        8,
+        2,
+        6,
+        0,
+        218,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        27
+      ]
+    ],
+    "support": {
+      "anger": 110,
+      "fear": 93,
+      "joy": 272,
+      "love": 67,
+      "sadness": 234,
+      "surprise": 30
+    }
+  },
+  "errors": [
+    {
+      "text": "i dont know what i feel now or what should i called this feeling now its so weird for me",
+      "gold": "fear",
+      "pred": "surprise",
+      "score": 0.9800785779953003
+    },
+    {
+      "text": "i often feel caught between my love of the creative process and the desire for a",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.9687247276306152
+    },
+    {
+      "text": "i feel weirdly calm",
+      "gold": "joy",
+      "pred": "surprise",
+      "score": 0.9752693772315979
+    },
+    {
+      "text": "when my mother and father were on an excursion in chechoslovakia and i was at a student camp and i heard over the radio about the events that were taking place there",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.8579255938529968
+    },
+    {
+      "text": "i feel quite weird",
+      "gold": "fear",
+      "pred": "surprise",
+      "score": 0.9734480977058411
+    },
+    {
+      "text": "id feel your sweet little kicks so im sorry if i woke you up with all the shrieking and jumping around",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.9485202431678772
+    },
+    {
+      "text": "i believe the no better feeling than seeing your ex with someone ugly saying is a bunch of crap because as long as they look happy together or pretend to look happy together you will always feel that first minutes sting of pure jealousy",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.9969395399093628
+    },
+    {
+      "text": "i will practice meditation if i feel overwhelmed and hopefully become successful in peaceful practice",
+      "gold": "fear",
+      "pred": "joy",
+      "score": 0.9227173328399658
+    },
+    {
+      "text": "i decided to print the paperbacks on the espresso book machine at mcnally jackson books where i work a couple days a week not only because it prints absolutely beautiful paperbacks but because i feel very very very strongly about supporting independent bookstores",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.9868052005767822
+    },
+    {
+      "text": "i feel sickened by and disgusted with the sins of man a href http trusthismercy",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.8227956891059875
+    },
+    {
+      "text": "ill end up but losing lbs in the first year feels amazing",
+      "gold": "joy",
+      "pred": "surprise",
+      "score": 0.9919760823249817
+    },
+    {
+      "text": "i begin to speak i feel others gently peeping in listening curious",
+      "gold": "surprise",
+      "pred": "love",
+      "score": 0.9921648502349854
+    },
+    {
+      "text": "i feel a little overwhelmed with all that this year is bringing",
+      "gold": "fear",
+      "pred": "surprise",
+      "score": 0.8790399432182312
+    },
+    {
+      "text": "i cant help but feel a bit gilted by the situation primarily because the only mistakes that i can make out after many long hours of scrutiny of each step along the way is trusting to much in people i believed i could trust in",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.9240190386772156
+    },
+    {
+      "text": "i opened a jar of passata that i made last summer feeling smug all the while about having lovely home bottled summery goodness on hand",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.9809195399284363
+    },
+    {
+      "text": "i feel stressed or down i like to go there and write something meaningful as intention and breathe to it for a few minutes",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.9006010293960571
+    },
+    {
+      "text": "i know i cry because the characters become so real that you feel their pain heartaches and suffering",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.9289954900741577
+    },
+    {
+      "text": "im feeling pretty manipulated and i really think that doing something about it is the only way i can break that control they currently have over me",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.9171860814094543
+    },
+    {
+      "text": "our basketball team is undefeated in league play currently",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.990192174911499
+    },
+    {
+      "text": "i was feeling very happy this morning but now i feel a bit depressed",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.9906384944915771
+    }
+  ]
+}

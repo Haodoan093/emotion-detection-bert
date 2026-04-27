@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-04-24T00:04:31.907225+00:00",
+  "model_name": "bert-base-multilingual-cased",
+  "output_dir": "models/emotion/bench/mbert_kaggle8k_e3",
+  "best_dir": "models/emotion/bench/mbert_kaggle8k_e3/best",
+  "labels": [
+    "anger",
+    "fear",
+    "joy",
+    "love",
+    "sadness",
+    "surprise"
+  ],
+  "train_distribution": {
+    "anger": 880,
+    "fear": 732,
+    "joy": 2165,
+    "love": 530,
+    "sadness": 1860,
+    "surprise": 230
+  },
+  "val_distribution": {
+    "anger": 110,
+    "fear": 91,
+    "joy": 270,
+    "love": 66,
+    "sadness": 232,
+    "surprise": 28
+  },
+  "train_samples": 6397,
+  "val_samples": 797,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "batch_size": 8,
+  "epochs": 3.0,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "gradient_accumulation_steps": 1,
+  "use_class_weights": true,
+  "class_weights": {
+    "anger": 0.7002609372138977,
+    "fear": 0.8418437838554382,
+    "joy": 0.2846326231956482,
+    "love": 1.162697434425354,
+    "sadness": 0.3313062787055969,
+    "surprise": 2.6792590618133545
+  },
+  "eval_result": {
+    "eval_loss": 0.46106913685798645,
+    "eval_accuracy": 0.9071518193224593,
+    "eval_macro_f1": 0.8829144981598173,
+    "eval_runtime": 110.5512,
+    "eval_samples_per_second": 7.209,
+    "eval_steps_per_second": 0.905,
+    "epoch": 3.0
+  }
+}

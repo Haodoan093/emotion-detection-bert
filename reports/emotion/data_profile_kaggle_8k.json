@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-04-23T11:12:04.408047+00:00",
+  "source_file": "data\\emotion\\processed\\kaggle-emotion.cleaned.50k.jsonl",
+  "seed": 42,
+  "target_size": 8000,
+  "counts": {
+    "source": 50000,
+    "subset": 8000,
+    "train": 6397,
+    "val": 797,
+    "test": 806
+  },
+  "distribution": {
+    "source": {
+      "anger": 6877,
+      "fear": 5727,
+      "joy": 16916,
+      "love": 4145,
+      "sadness": 14538,
+      "surprise": 1797
+    },
+    "subset": {
+      "anger": 1100,
+      "fear": 916,
+      "joy": 2707,
+      "love": 663,
+      "sadness": 2326,
+      "surprise": 288
+    },
+    "train": {
+      "anger": 880,
+      "fear": 732,
+      "joy": 2165,
+      "love": 530,
+      "sadness": 1860,
+      "surprise": 230
+    },
+    "val": {
+      "anger": 110,
+      "fear": 91,
+      "joy": 270,
+      "love": 66,
+      "sadness": 232,
+      "surprise": 28
+    },
+    "test": {
+      "anger": 110,
+      "fear": 93,
+      "joy": 272,
+      "love": 67,
+      "sadness": 234,
+      "surprise": 30
+    }
+  },
+  "paths": {
+    "subset_file": "data\\emotion\\processed\\kaggle-emotion.cleaned.8k.jsonl",
+    "splits_dir": "data\\emotion\\splits\\kaggle-8k"
+  }
+}

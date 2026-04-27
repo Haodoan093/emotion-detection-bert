@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-04-22T17:00:33.350456+00:00",
+  "source_handle": "uit-vsmec:duwuonline/UIT-VSMEC",
+  "counts": {
+    "raw": 6927,
+    "processed": 6922,
+    "train": 5536,
+    "val": 689,
+    "test": 697
+  },
+  "distribution": {
+    "raw": {
+      "anger": 480,
+      "disgust": 1338,
+      "fear": 395,
+      "joy": 1965,
+      "neutral": 1291,
+      "sadness": 1149,
+      "surprise": 309
+    },
+    "processed": {
+      "anger": 480,
+      "disgust": 1336,
+      "fear": 394,
+      "joy": 1965,
+      "neutral": 1290,
+      "sadness": 1149,
+      "surprise": 308
+    },
+    "train": {
+      "anger": 384,
+      "disgust": 1068,
+      "fear": 315,
+      "joy": 1572,
+      "neutral": 1032,
+      "sadness": 919,
+      "surprise": 246
+    },
+    "val": {
+      "anger": 48,
+      "disgust": 133,
+      "fear": 39,
+      "joy": 196,
+      "neutral": 129,
+      "sadness": 114,
+      "surprise": 30
+    },
+    "test": {
+      "anger": 48,
+      "disgust": 135,
+      "fear": 40,
+      "joy": 197,
+      "neutral": 129,
+      "sadness": 116,
+      "surprise": 32
+    }
+  }
+}

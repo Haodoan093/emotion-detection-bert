@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-04-23T17:02:53.021301+00:00",
+  "model": "models/emotion/bench/distil_kaggle8k/best",
+  "device": "auto",
+  "samples": 806,
+  "metrics": {
+    "labels": [
+      "anger",
+      "fear",
+      "joy",
+      "love",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.7084367245657568,
+    "macro_f1": 0.6924399619958552,
+    "per_label": {
+      "anger": {
+        "precision": 0.6139240506329114,
+        "recall": 0.8818181818181818,
+        "f1": 0.7238805970149254,
+        "support": 110.0
+      },
+      "fear": {
+        "precision": 0.7126436781609196,
+        "recall": 0.6666666666666666,
+        "f1": 0.6888888888888889,
+        "support": 93.0
+      },
+      "joy": {
+        "precision": 0.8826291079812206,
+        "recall": 0.6911764705882353,
+        "f1": 0.7752577319587628,
+        "support": 272.0
+      },
+      "love": {
+        "precision": 0.5306122448979592,
+        "recall": 0.7761194029850746,
+        "f1": 0.6303030303030303,
+        "support": 67.0
+      },
+      "sadness": {
+        "precision": 0.7009345794392523,
+        "recall": 0.6410256410256411,
+        "f1": 0.6696428571428572,
+        "support": 234.0
+      },
+      "surprise": {
+        "precision": 0.6111111111111112,
+        "recall": 0.7333333333333333,
+        "f1": 0.6666666666666666,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        97,
+        1,
+        1,
+        0,
+        11,
+        0
+      ],
+      [
+        7,
+        62,
+        0,
+        1,
+        15,
+        8
+      ],
+      [
+        10,
+        0,
+        188,
+        36,
+        34,
+        4
+      ],
+      [
+        1,
+        0,
+        11,
+        52,
+        2,
+        1
+      ],
+      [
+        41,
+        23,
+        11,
+        8,
+        150,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        22
+      ]
+    ],
+    "support": {
+      "anger": 110,
+      "fear": 93,
+      "joy": 272,
+      "love": 67,
+      "sadness": 234,
+      "surprise": 30
+    }
+  },
+  "errors": [
+    {
+      "text": "im not even sure if this counts as metal at all anymore the overwhelming feeling i had while listening to this was that it was basically just a really shitty version of evanescence",
+      "gold": "sadness",
+      "pred": "surprise",
+      "score": 0.49937909841537476
+    },
+    {
+      "text": "i dont know what i feel now or what should i called this feeling now its so weird for me",
+      "gold": "fear",
+      "pred": "surprise",
+      "score": 0.5719170570373535
+    },
+    {
+      "text": "i feel dumb and desperate bite my tongue as he bites in his talk until need rises then sweet in his beg a gigolo who belittles and strikes deathing blows to my generous but",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.33377355337142944
+    },
+    {
+      "text": "i know i love it but i feel like i should be embarrassed",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.40551990270614624
+    },
+    {
+      "text": "i am a substrate but seek to be a product of something more than a corporeal feeling something mysteriously divine and ethereal",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.397156298160553
+    },
+    {
+      "text": "i don t feel like it s very sincere",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.6442674994468689
+    },
+    {
+      "text": "i feel hurt and im not in favor of this relationship and i told her fat ass that",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.37285280227661133
+    },
+    {
+      "text": "im beginning to hope and pray that the theme for next year will instead be one of unity as i feel for some strange reason that god is laying this word on my heart in a touching impacting manner",
+      "gold": "surprise",
+      "pred": "sadness",
+      "score": 0.3095388114452362
+    },
+    {
+      "text": "i want to feel your wimpy pecker so badly i can barely stand it",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.41914433240890503
+    },
+    {
+      "text": "i feel a lot of things to day exhausted disappointed angry tired",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.3085178732872009
+    },
+    {
+      "text": "i often feel caught between my love of the creative process and the desire for a",
+      "gold": "joy",
+      "pred": "anger",
+      "score": 0.35818570852279663
+    },
+    {
+      "text": "im still feeling pretty skeptical",
+      "gold": "fear",
+      "pred": "anger",
+      "score": 0.5114840865135193
+    },
+    {
+      "text": "i feel convinced they wont find anything i guess my subconcious isnt so sure",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.3996273875236511
+    },
+    {
+      "text": "i really feel that my sweet annalise was given to me by god as a test of my faith",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.604892373085022
+    },
+    {
+      "text": "i am free to do anything but i feel more like a petrified animal forced out of comfortable captivity",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.4903721511363983
+    },
+    {
+      "text": "i will start to write with ease and i feel like writing for days on end not caring about the protocol of an assignment",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.6246161460876465
+    },
+    {
+      "text": "i still feel a bit dazed by the second half of",
+      "gold": "surprise",
+      "pred": "sadness",
+      "score": 0.2874775528907776
+    },
+    {
+      "text": "i must admit that i do for selfish reasons i feel that it is a privilege to work with children and i am now delighted to do this without having to experience the local politics and stress that most in the sector have to endure on a daily basis",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.6407556533813477
+    },
+    {
+      "text": "i wasnt in a bargaining mood nor was i feeling particularly trusting",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.6385857462882996
+    },
+    {
+      "text": "i feel weirdly calm",
+      "gold": "joy",
+      "pred": "surprise",
+      "score": 0.3515831232070923
+    }
+  ]
+}

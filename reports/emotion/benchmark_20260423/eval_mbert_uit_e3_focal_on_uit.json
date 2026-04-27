@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-04-24T11:12:51.292920+00:00",
+  "model": "models/emotion/bench/mbert_uit_e3_focal/best",
+  "device": "auto",
+  "samples": 697,
+  "metrics": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.569583931133429,
+    "macro_f1": 0.5060468830716971,
+    "per_label": {
+      "anger": {
+        "precision": 0.41379310344827586,
+        "recall": 0.25,
+        "f1": 0.31168831168831174,
+        "support": 48.0
+      },
+      "disgust": {
+        "precision": 0.512396694214876,
+        "recall": 0.45925925925925926,
+        "f1": 0.48437499999999994,
+        "support": 135.0
+      },
+      "fear": {
+        "precision": 0.7,
+        "recall": 0.35,
+        "f1": 0.4666666666666667,
+        "support": 40.0
+      },
+      "joy": {
+        "precision": 0.6565217391304348,
+        "recall": 0.766497461928934,
+        "f1": 0.7072599531615925,
+        "support": 197.0
+      },
+      "neutral": {
+        "precision": 0.46496815286624205,
+        "recall": 0.5658914728682171,
+        "f1": 0.5104895104895105,
+        "support": 129.0
+      },
+      "sadness": {
+        "precision": 0.6065573770491803,
+        "recall": 0.6379310344827587,
+        "f1": 0.6218487394957983,
+        "support": 116.0
+      },
+      "surprise": {
+        "precision": 0.6111111111111112,
+        "recall": 0.34375,
+        "f1": 0.44000000000000006,
+        "support": 32.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        12,
+        21,
+        1,
+        1,
+        12,
+        1,
+        0
+      ],
+      [
+        13,
+        62,
+        1,
+        17,
+        25,
+        17,
+        0
+      ],
+      [
+        1,
+        6,
+        14,
+        8,
+        4,
+        7,
+        0
+      ],
+      [
+        0,
+        10,
+        1,
+        151,
+        19,
+        11,
+        5
+      ],
+      [
+        2,
+        14,
+        3,
+        24,
+        73,
+        11,
+        2
+      ],
+      [
+        1,
+        5,
+        0,
+        20,
+        16,
+        74,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        9,
+        8,
+        1,
+        11
+      ]
+    ],
+    "support": {
+      "anger": 48,
+      "disgust": 135,
+      "fear": 40,
+      "joy": 197,
+      "neutral": 129,
+      "sadness": 116,
+      "surprise": 32
+    }
+  },
+  "errors": [
+    {
+      "text": "tình yêu là lời nói dối của 1 thằng khùng được tin bởi 1 con ngu 🤣🤣",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.4359799921512604
+    },
+    {
+      "text": "mấy con yêu nghiệt ngày xưa nội có nuôi 2 con cứ ra đằng sau là nó dí chạy muốn tuột mẹ quần 🙄🙄",
+      "gold": "fear",
+      "pred": "disgust",
+      "score": 0.4163108170032501
+    },
+    {
+      "text": "mới ra mà nắm bắt nhanh thế",
+      "gold": "neutral",
+      "pred": "surprise",
+      "score": 0.5523393750190735
+    },
+    {
+      "text": "không có gì là tồn tại mãi nhỉ",
+      "gold": "sadness",
+      "pred": "neutral",
+      "score": 0.4823998212814331
+    },
+    {
+      "text": "tao tưởng nó té cái đùng chứ . làm ngồi chờ mãi mỏi cả mắt",
+      "gold": "sadness",
+      "pred": "disgust",
+      "score": 0.3465726375579834
+    },
+    {
+      "text": "tiền mất tật mang . xe đã nát rồi giờ còn phải đền cách cửa cho tàu nửa",
+      "gold": "sadness",
+      "pred": "disgust",
+      "score": 0.3625289797782898
+    },
+    {
+      "text": "còn nhiều người khổ hơn mình :))",
+      "gold": "neutral",
+      "pred": "sadness",
+      "score": 0.6596719026565552
+    },
+    {
+      "text": "hết buồn cũng phải có tiền mới hết được :))",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.601868212223053
+    },
+    {
+      "text": "khoảng gần chục năm về trước thì còn vàng trắng .... giờ thì bán còn không đủ không đủ để trả công nữa là",
+      "gold": "sadness",
+      "pred": "neutral",
+      "score": 0.43391871452331543
+    },
+    {
+      "text": "sang năm quyêt định đi ngủ cho đỡ mỏi mắt",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.3454907536506653
+    },
+    {
+      "text": "wow vừa vẽ đẹp lại còn biết sáng tạo :))",
+      "gold": "surprise",
+      "pred": "joy",
+      "score": 0.4485745131969452
+    },
+    {
+      "text": "một lí do trog muôn vàn lí do",
+      "gold": "neutral",
+      "pred": "disgust",
+      "score": 0.5686811804771423
+    },
+    {
+      "text": "cái này ở shop đồng giá 40k aeon có nè , tê tới dái luôn",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.37413766980171204
+    },
+    {
+      "text": "tinh trùng đâu lắm thế",
+      "gold": "surprise",
+      "pred": "neutral",
+      "score": 0.5788459181785583
+    },
+    {
+      "text": "cá nhân mình nghĩ nó dừng hay đỗ đúng sai thì đã có ca pạt còn nó đỗ trước cửa nhà mình mà oto hay xe không ra vào được thì lúc đó mới ý kiến . công nhận bọn oto đỗ trước nhà nhìn chỉ muốn đốt",
+      "gold": "anger",
+      "pred": "disgust",
+      "score": 0.47572261095046997
+    },
+    {
+      "text": "quàooo hay vậy sao , chà chà =))))",
+      "gold": "surprise",
+      "pred": "joy",
+      "score": 0.6541253924369812
+    },
+    {
+      "text": "đã ra tù nhưng chắc nhớ tù quá , muốn quay lại trại nên mặc quả đồ này :vậy",
+      "gold": "disgust",
+      "pred": "sadness",
+      "score": 0.3743530809879303
+    },
+    {
+      "text": "k chăm được thì đừng nuôi nhìn tội quá ??",
+      "gold": "disgust",
+      "pred": "neutral",
+      "score": 0.43707165122032166
+    },
+    {
+      "text": "nếu lái xe là dân đen thì thế nào chú . có dám đậu ở đóa không",
+      "gold": "neutral",
+      "pred": "disgust",
+      "score": 0.34362170100212097
+    },
+    {
+      "text": "phản cảm",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.5758400559425354
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/asr/transcribe
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="sample.wav"
+Content-Type: audio/wav
+
+< ./data/docs/sample.wav
+--boundary--
+
+###
+
+POST http://127.0.0.1:8000/llm/answer
+Content-Type: application/json
+
+{
+  "question": "Toi nen lam gi voi khoan tiet kiem ngan han?",
+  "context": "Khach hang muon an toan, thoi gian 3 thang, khong muon rui ro."
+}
+
+###
+
+# Chat voice now streams via WebSocket:
+# ws://127.0.0.1:8000/chat/voice/ws
+#
+# Message flow:
+# 1) Text JSON: {"event":"start","filename":"mic.wav"}
+# 2) Binary frames: microphone chunks
+# 3) Text JSON: {"event":"end"}
+#
+# Server events: ready, started, partial, final, error
+# Final payload may include audio_base64, audio_mime_type, audio_filename
+
+###

@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-04-23T17:04:46.548665+00:00",
+  "model": "models/emotion/bench/distil_kaggle8k/best",
+  "device": "auto",
+  "samples": 697,
+  "metrics": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "love",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.29555236728837875,
+    "macro_f1": 0.09634329922445169,
+    "per_label": {
+      "anger": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 48.0
+      },
+      "disgust": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 135.0
+      },
+      "fear": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 40.0
+      },
+      "joy": {
+        "precision": 0.32515337423312884,
+        "recall": 0.8071065989847716,
+        "f1": 0.46355685131195334,
+        "support": 197.0
+      },
+      "love": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "neutral": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 129.0
+      },
+      "sadness": {
+        "precision": 0.24736842105263157,
+        "recall": 0.4051724137931034,
+        "f1": 0.30718954248366015,
+        "support": 116.0
+      },
+      "surprise": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 32.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        28,
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        98,
+        1,
+        0,
+        35,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        25,
+        0,
+        0,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        159,
+        8,
+        0,
+        30,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        88,
+        3,
+        0,
+        38,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        65,
+        1,
+        0,
+        47,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        26,
+        0,
+        0,
+        6,
+        0
+      ]
+    ],
+    "support": {
+      "anger": 48,
+      "disgust": 135,
+      "fear": 40,
+      "joy": 197,
+      "love": 0,
+      "neutral": 129,
+      "sadness": 116,
+      "surprise": 32
+    }
+  },
+  "errors": [
+    {
+      "text": "cái thứ 2 mình thấy lạ lòn , bạn gái người ta ăn , quên chỉnh tóc . người ta chỉnh lại tóc dùm bạn gái mắc gì 2 đứa nó thái độ 😑😑",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.3683345913887024
+    },
+    {
+      "text": "quỳ rồi chết ông chết bà chúng mày à ? tao hồi xưa đi học còn ăn cây như cơm bữa , véo tai mỗi ngày ? dume học thì ngu phá thì giỏi bắt quỳ là nhẹ rồi ở đó mà gáy con cặc",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.3007832169532776
+    },
+    {
+      "text": "tình yêu là lời nói dối của 1 thằng khùng được tin bởi 1 con ngu 🤣🤣",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.2949782609939575
+    },
+    {
+      "text": "per ông đó có đôi mắt đẹp ghê",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.39208701252937317
+    },
+    {
+      "text": "mấy con yêu nghiệt ngày xưa nội có nuôi 2 con cứ ra đằng sau là nó dí chạy muốn tuột mẹ quần 🙄🙄",
+      "gold": "fear",
+      "pred": "joy",
+      "score": 0.3969807028770447
+    },
+    {
+      "text": "cho phải công bằng , nếu không anh chị em không hoà thuận ...",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.2919635772705078
+    },
+    {
+      "text": "giun xào tỏi , đỉa xào lăn , cứt nấu đông , hỉ mũi rang cơm trộn với đờm , tởm vãi",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.2755207419395447
+    },
+    {
+      "text": "mới ra mà nắm bắt nhanh thế",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.3614330291748047
+    },
+    {
+      "text": "tao tưởng nó té cái đùng chứ . làm ngồi chờ mãi mỏi cả mắt",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.2681441605091095
+    },
+    {
+      "text": "ông thầy cục súc vãi lol",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.2745944857597351
+    },
+    {
+      "text": "nhớp nhúa",
+      "gold": "disgust",
+      "pred": "sadness",
+      "score": 0.24710558354854584
+    },
+    {
+      "text": "còn nhiều người khổ hơn mình :))",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.3164832890033722
+    },
+    {
+      "text": "trông tội vãi",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.3520486354827881
+    },
+    {
+      "text": "sang năm quyêt định đi ngủ cho đỡ mỏi mắt",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.34112676978111267
+    },
+    {
+      "text": "có gì vui không nhỉ",
+      "gold": "neutral",
+      "pred": "sadness",
+      "score": 0.32616692781448364
+    },
+    {
+      "text": "wow vừa vẽ đẹp lại còn biết sáng tạo :))",
+      "gold": "surprise",
+      "pred": "joy",
+      "score": 0.45679426193237305
+    },
+    {
+      "text": "per lắp đi , chứ tốn tiền điện thoại lắm",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.4470229744911194
+    },
+    {
+      "text": "một lí do trog muôn vàn lí do",
+      "gold": "neutral",
+      "pred": "sadness",
+      "score": 0.25239279866218567
+    },
+    {
+      "text": "per ở quê ve sầu kêu chưa chúng mày",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.3926088809967041
+    },
+    {
+      "text": "quãng cáo cũng được đăng à",
+      "gold": "surprise",
+      "pred": "joy",
+      "score": 0.34039464592933655
+    }
+  ]
+}

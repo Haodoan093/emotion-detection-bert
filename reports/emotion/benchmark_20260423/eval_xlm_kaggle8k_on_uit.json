@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-04-23T17:09:00.220710+00:00",
+  "model": "models/emotion/bench/xlm_kaggle8k/best",
+  "device": "auto",
+  "samples": 697,
+  "metrics": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "love",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.3486370157819225,
+    "macro_f1": 0.15528054363682153,
+    "per_label": {
+      "anger": {
+        "precision": 0.20833333333333334,
+        "recall": 0.3125,
+        "f1": 0.25,
+        "support": 48.0
+      },
+      "disgust": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 135.0
+      },
+      "fear": {
+        "precision": 1.0,
+        "recall": 0.025,
+        "f1": 0.04878048780487806,
+        "support": 40.0
+      },
+      "joy": {
+        "precision": 0.402088772845953,
+        "recall": 0.7817258883248731,
+        "f1": 0.5310344827586208,
+        "support": 197.0
+      },
+      "love": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "neutral": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 129.0
+      },
+      "sadness": {
+        "precision": 0.3067226890756303,
+        "recall": 0.6293103448275862,
+        "f1": 0.4124293785310734,
+        "support": 116.0
+      },
+      "surprise": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 32.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        0,
+        14,
+        0,
+        0,
+        19,
+        0
+      ],
+      [
+        25,
+        0,
+        0,
+        50,
+        0,
+        0,
+        60,
+        0
+      ],
+      [
+        11,
+        0,
+        1,
+        13,
+        1,
+        0,
+        14,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        154,
+        1,
+        0,
+        34,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        88,
+        0,
+        0,
+        33,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        38,
+        1,
+        0,
+        73,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        26,
+        0,
+        0,
+        5,
+        0
+      ]
+    ],
+    "support": {
+      "anger": 48,
+      "disgust": 135,
+      "fear": 40,
+      "joy": 197,
+      "love": 0,
+      "neutral": 129,
+      "sadness": 116,
+      "surprise": 32
+    }
+  },
+  "errors": [
+    {
+      "text": "cái thứ 2 mình thấy lạ lòn , bạn gái người ta ăn , quên chỉnh tóc . người ta chỉnh lại tóc dùm bạn gái mắc gì 2 đứa nó thái độ 😑😑",
+      "gold": "disgust",
+      "pred": "sadness",
+      "score": 0.2837746739387512
+    },
+    {
+      "text": "quỳ rồi chết ông chết bà chúng mày à ? tao hồi xưa đi học còn ăn cây như cơm bữa , véo tai mỗi ngày ? dume học thì ngu phá thì giỏi bắt quỳ là nhẹ rồi ở đó mà gáy con cặc",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.2599893808364868
+    },
+    {
+      "text": "tình yêu là lời nói dối của 1 thằng khùng được tin bởi 1 con ngu 🤣🤣",
+      "gold": "disgust",
+      "pred": "sadness",
+      "score": 0.29209449887275696
+    },
+    {
+      "text": "mặt dày lại ôm cứng ngắt cho chị . 😆",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.33805930614471436
+    },
+    {
+      "text": "mấy con yêu nghiệt ngày xưa nội có nuôi 2 con cứ ra đằng sau là nó dí chạy muốn tuột mẹ quần 🙄🙄",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.2965463399887085
+    },
+    {
+      "text": "cho phải công bằng , nếu không anh chị em không hoà thuận ...",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.479880690574646
+    },
+    {
+      "text": "giun xào tỏi , đỉa xào lăn , cứt nấu đông , hỉ mũi rang cơm trộn với đờm , tởm vãi",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.3962770402431488
+    },
+    {
+      "text": "mới ra mà nắm bắt nhanh thế",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.49125078320503235
+    },
+    {
+      "text": "không có gì là tồn tại mãi nhỉ",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.46579229831695557
+    },
+    {
+      "text": "ông thầy cục súc vãi lol",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.43071863055229187
+    },
+    {
+      "text": "nhớp nhúa",
+      "gold": "disgust",
+      "pred": "joy",
+      "score": 0.394704669713974
+    },
+    {
+      "text": "còn nhiều người khổ hơn mình :))",
+      "gold": "neutral",
+      "pred": "sadness",
+      "score": 0.3491825759410858
+    },
+    {
+      "text": "hết buồn cũng phải có tiền mới hết được :))",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.3482293486595154
+    },
+    {
+      "text": "khoảng gần chục năm về trước thì còn vàng trắng .... giờ thì bán còn không đủ không đủ để trả công nữa là",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.4819411039352417
+    },
+    {
+      "text": "sang năm quyêt định đi ngủ cho đỡ mỏi mắt",
+      "gold": "neutral",
+      "pred": "sadness",
+      "score": 0.24180392920970917
+    },
+    {
+      "text": "có gì vui không nhỉ",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.47263458371162415
+    },
+    {
+      "text": "wow vừa vẽ đẹp lại còn biết sáng tạo :))",
+      "gold": "surprise",
+      "pred": "joy",
+      "score": 0.5016800761222839
+    },
+    {
+      "text": "per lắp đi , chứ tốn tiền điện thoại lắm",
+      "gold": "neutral",
+      "pred": "sadness",
+      "score": 0.315422922372818
+    },
+    {
+      "text": "một lí do trog muôn vàn lí do",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.46273770928382874
+    },
+    {
+      "text": "per ở quê ve sầu kêu chưa chúng mày",
+      "gold": "neutral",
+      "pred": "joy",
+      "score": 0.4359777569770813
+    }
+  ]
+}

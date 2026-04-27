@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-04-23T17:05:59.082548+00:00",
+  "model": "models/emotion/bench/distil_uit/best",
+  "device": "auto",
+  "samples": 806,
+  "metrics": {
+    "labels": [
+      "anger",
+      "fear",
+      "joy",
+      "love",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.3225806451612903,
+    "macro_f1": 0.11266862634778223,
+    "per_label": {
+      "anger": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 110.0
+      },
+      "fear": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 93.0
+      },
+      "joy": {
+        "precision": 0.5211267605633803,
+        "recall": 0.13602941176470587,
+        "f1": 0.21574344023323616,
+        "support": 272.0
+      },
+      "love": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 67.0
+      },
+      "sadness": {
+        "precision": 0.3034013605442177,
+        "recall": 0.9529914529914529,
+        "f1": 0.4602683178534572,
+        "support": 234.0
+      },
+      "surprise": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        8,
+        0,
+        102,
+        0
+      ],
+      [
+        0,
+        0,
+        7,
+        0,
+        86,
+        0
+      ],
+      [
+        0,
+        0,
+        37,
+        0,
+        235,
+        0
+      ],
+      [
+        0,
+        0,
+        7,
+        0,
+        60,
+        0
+      ],
+      [
+        0,
+        0,
+        11,
+        0,
+        223,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        29,
+        0
+      ]
+    ],
+    "support": {
+      "anger": 110,
+      "fear": 93,
+      "joy": 272,
+      "love": 67,
+      "sadness": 234,
+      "surprise": 30
+    }
+  },
+  "errors": [
+    {
+      "text": "i had become incredibly bored of the cod forumula and mw left me feeling very unsure about the future of this series",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.33538007736206055
+    },
+    {
+      "text": "i hope it will spark a list of your own and feel free to steal mine",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.42159703373908997
+    },
+    {
+      "text": "i feel shy that time",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.3602820634841919
+    },
+    {
+      "text": "i feel the most loved",
+      "gold": "love",
+      "pred": "sadness",
+      "score": 0.3550261855125427
+    },
+    {
+      "text": "i dont know what i feel now or what should i called this feeling now its so weird for me",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.397819846868515
+    },
+    {
+      "text": "i am plagued by awkward feelings the charming tale of a not so charming gal named me",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.3754536509513855
+    },
+    {
+      "text": "i feel oddly nostalgic for some sensations from those times though i do not feel at all nostalgic for the times themselves",
+      "gold": "love",
+      "pred": "sadness",
+      "score": 0.35700011253356934
+    },
+    {
+      "text": "i never feel rushed when im with her it doesnt feel like i need to get what im saying out faster or else shell get bored",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.40449059009552
+    },
+    {
+      "text": "i will never be a christian so the meaning of christmas to me is purely secular and when i am feeling rebellious a little bit pagan",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.34619399905204773
+    },
+    {
+      "text": "im left feeling grumpy and irritated far removed from being happy or merry over the nonsense argument as a whole",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.40080365538597107
+    },
+    {
+      "text": "i have given several colleagues who asked me for free lance advice the same nudge ask for what you feel would make the job worthwhile i tell them",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.314939945936203
+    },
+    {
+      "text": "i tend to blog more when i m feeling rotten",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.2455301731824875
+    },
+    {
+      "text": "i cant help but feel a little stunned not so much because shes around again but because shes around again and i feel like im all over again",
+      "gold": "surprise",
+      "pred": "sadness",
+      "score": 0.4227772653102875
+    },
+    {
+      "text": "i feel irritable and there are so many things that are bothering me even though i know they aren t a big enough deal to justify making me this crazy",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.38287344574928284
+    },
+    {
+      "text": "i wonder why i feel so violent towards them every so often",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.3894512355327606
+    },
+    {
+      "text": "i feel more like i am just shy and have some anxiety but nothing like aspergers",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.28109151124954224
+    },
+    {
+      "text": "i even feel uncomfortable when i get more out of sex than the other person",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.3154338598251343
+    },
+    {
+      "text": "i liked feeling useful and being needed it eased my own insecurities of being accepted and not rejected",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.35319361090660095
+    },
+    {
+      "text": "i am now two week out from the surgery and feeling much better",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.3519723117351532
+    },
+    {
+      "text": "i am very happy being here i am happy with how i look and how i feel i would be content to stay here at and be a size",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.35476887226104736
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-04-24T11:10:21.483279+00:00",
+  "model": "models/emotion/bench/mbert_kaggle8k_e3/best",
+  "device": "auto",
+  "samples": 806,
+  "metrics": {
+    "labels": [
+      "anger",
+      "fear",
+      "joy",
+      "love",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.901985111662531,
+    "macro_f1": 0.883406341773643,
+    "per_label": {
+      "anger": {
+        "precision": 0.9292035398230089,
+        "recall": 0.9545454545454546,
+        "f1": 0.9417040358744395,
+        "support": 110.0
+      },
+      "fear": {
+        "precision": 0.926829268292683,
+        "recall": 0.8172043010752689,
+        "f1": 0.8685714285714285,
+        "support": 93.0
+      },
+      "joy": {
+        "precision": 0.9375,
+        "recall": 0.8823529411764706,
+        "f1": 0.9090909090909091,
+        "support": 272.0
+      },
+      "love": {
+        "precision": 0.8309859154929577,
+        "recall": 0.8805970149253731,
+        "f1": 0.8550724637681161,
+        "support": 67.0
+      },
+      "sadness": {
+        "precision": 0.8938775510204081,
+        "recall": 0.9358974358974359,
+        "f1": 0.9144050104384134,
+        "support": 234.0
+      },
+      "surprise": {
+        "precision": 0.717948717948718,
+        "recall": 0.9333333333333333,
+        "f1": 0.8115942028985509,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        105,
+        0,
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        76,
+        2,
+        1,
+        5,
+        8
+      ],
+      [
+        2,
+        4,
+        240,
+        8,
+        15,
+        3
+      ],
+      [
+        0,
+        0,
+        7,
+        59,
+        1,
+        0
+      ],
+      [
+        5,
+        2,
+        6,
+        2,
+        219,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        28
+      ]
+    ],
+    "support": {
+      "anger": 110,
+      "fear": 93,
+      "joy": 272,
+      "love": 67,
+      "sadness": 234,
+      "surprise": 30
+    }
+  },
+  "errors": [
+    {
+      "text": "i dont know what i feel now or what should i called this feeling now its so weird for me",
+      "gold": "fear",
+      "pred": "surprise",
+      "score": 0.9318813681602478
+    },
+    {
+      "text": "i feel dumb and desperate bite my tongue as he bites in his talk until need rises then sweet in his beg a gigolo who belittles and strikes deathing blows to my generous but",
+      "gold": "sadness",
+      "pred": "love",
+      "score": 0.49303385615348816
+    },
+    {
+      "text": "i often feel caught between my love of the creative process and the desire for a",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.9074786305427551
+    },
+    {
+      "text": "i feel weirdly calm",
+      "gold": "joy",
+      "pred": "surprise",
+      "score": 0.9227414131164551
+    },
+    {
+      "text": "when my mother and father were on an excursion in chechoslovakia and i was at a student camp and i heard over the radio about the events that were taking place there",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.8861415982246399
+    },
+    {
+      "text": "i am progressing through the exercise steps and it feels sweet to realize i am now doing way more than i used to be able to",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.9471105337142944
+    },
+    {
+      "text": "i feel quite weird",
+      "gold": "fear",
+      "pred": "surprise",
+      "score": 0.8966347575187683
+    },
+    {
+      "text": "id feel your sweet little kicks so im sorry if i woke you up with all the shrieking and jumping around",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.923992395401001
+    },
+    {
+      "text": "i no longer feel the need to call my mom and everyone else in earshot to be reassured that ive done the right thing when some simpleton gets me unnerved",
+      "gold": "joy",
+      "pred": "fear",
+      "score": 0.6825376749038696
+    },
+    {
+      "text": "i decided to print the paperbacks on the espresso book machine at mcnally jackson books where i work a couple days a week not only because it prints absolutely beautiful paperbacks but because i feel very very very strongly about supporting independent bookstores",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.9936599135398865
+    },
+    {
+      "text": "i feel sickened by and disgusted with the sins of man a href http trusthismercy",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.8377345204353333
+    },
+    {
+      "text": "ill end up but losing lbs in the first year feels amazing",
+      "gold": "joy",
+      "pred": "surprise",
+      "score": 0.994161069393158
+    },
+    {
+      "text": "i begin to speak i feel others gently peeping in listening curious",
+      "gold": "surprise",
+      "pred": "love",
+      "score": 0.995232880115509
+    },
+    {
+      "text": "im a pinterest fan but i can allow the tendrils of feeling overwhelmed and insufficient slip in as i scroll through the pages",
+      "gold": "fear",
+      "pred": "surprise",
+      "score": 0.8777733445167542
+    },
+    {
+      "text": "i feel a little overwhelmed with all that this year is bringing",
+      "gold": "fear",
+      "pred": "surprise",
+      "score": 0.5918202996253967
+    },
+    {
+      "text": "i feel kind of bashful",
+      "gold": "fear",
+      "pred": "joy",
+      "score": 0.9279137253761292
+    },
+    {
+      "text": "i could feel the poisoned hateful angry buildup leaving and it made me feel lighter",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.9689833521842957
+    },
+    {
+      "text": "i feel stressed or down i like to go there and write something meaningful as intention and breathe to it for a few minutes",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.7563853859901428
+    },
+    {
+      "text": "i am telling the complete and utter truth as i am explaining my situation to my co worker and emphasizing how much more productive i will be if i stay home i wonder why it sounds and feels like a totally lame excuse a blatant lie even to me",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.6760596632957458
+    },
+    {
+      "text": "i know i cry because the characters become so real that you feel their pain heartaches and suffering",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.8751649856567383
+    }
+  ]
+}

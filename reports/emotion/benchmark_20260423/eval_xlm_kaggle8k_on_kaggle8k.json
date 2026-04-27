@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-04-23T17:07:54.867559+00:00",
+  "model": "models/emotion/bench/xlm_kaggle8k/best",
+  "device": "auto",
+  "samples": 806,
+  "metrics": {
+    "labels": [
+      "anger",
+      "fear",
+      "joy",
+      "love",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.5062034739454094,
+    "macro_f1": 0.29224944808195946,
+    "per_label": {
+      "anger": {
+        "precision": 0.30976430976430974,
+        "recall": 0.8363636363636363,
+        "f1": 0.452088452088452,
+        "support": 110.0
+      },
+      "fear": {
+        "precision": 1.0,
+        "recall": 0.06451612903225806,
+        "f1": 0.12121212121212122,
+        "support": 93.0
+      },
+      "joy": {
+        "precision": 0.6984126984126984,
+        "recall": 0.8088235294117647,
+        "f1": 0.7495741056218058,
+        "support": 272.0
+      },
+      "love": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 67.0
+      },
+      "sadness": {
+        "precision": 0.4891304347826087,
+        "recall": 0.38461538461538464,
+        "f1": 0.430622009569378,
+        "support": 234.0
+      },
+      "surprise": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        92,
+        0,
+        4,
+        0,
+        14,
+        0
+      ],
+      [
+        51,
+        6,
+        4,
+        0,
+        32,
+        0
+      ],
+      [
+        22,
+        0,
+        220,
+        1,
+        29,
+        0
+      ],
+      [
+        3,
+        0,
+        54,
+        0,
+        10,
+        0
+      ],
+      [
+        120,
+        0,
+        21,
+        3,
+        90,
+        0
+      ],
+      [
+        9,
+        0,
+        12,
+        0,
+        9,
+        0
+      ]
+    ],
+    "support": {
+      "anger": 110,
+      "fear": 93,
+      "joy": 272,
+      "love": 67,
+      "sadness": 234,
+      "surprise": 30
+    }
+  },
+  "errors": [
+    {
+      "text": "i had become incredibly bored of the cod forumula and mw left me feeling very unsure about the future of this series",
+      "gold": "fear",
+      "pred": "anger",
+      "score": 0.33650076389312744
+    },
+    {
+      "text": "i feel shy that time",
+      "gold": "fear",
+      "pred": "anger",
+      "score": 0.31397321820259094
+    },
+    {
+      "text": "i feel the most loved",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.44088131189346313
+    },
+    {
+      "text": "i dont know what i feel now or what should i called this feeling now its so weird for me",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.34904158115386963
+    },
+    {
+      "text": "i feel wrecking so many doomed gestures but the soul lost in the senses climbs the stairs of the air sophia de mello breyner andresen",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.3252011239528656
+    },
+    {
+      "text": "i feel dumb and desperate bite my tongue as he bites in his talk until need rises then sweet in his beg a gigolo who belittles and strikes deathing blows to my generous but",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.3673962652683258
+    },
+    {
+      "text": "i know i love it but i feel like i should be embarrassed",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.35866832733154297
+    },
+    {
+      "text": "i am plagued by awkward feelings the charming tale of a not so charming gal named me",
+      "gold": "joy",
+      "pred": "anger",
+      "score": 0.3309217691421509
+    },
+    {
+      "text": "i feel oddly nostalgic for some sensations from those times though i do not feel at all nostalgic for the times themselves",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.4497604966163635
+    },
+    {
+      "text": "i never feel rushed when im with her it doesnt feel like i need to get what im saying out faster or else shell get bored",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.31033238768577576
+    },
+    {
+      "text": "i cant help but feel a little stunned not so much because shes around again but because shes around again and i feel like im all over again",
+      "gold": "surprise",
+      "pred": "anger",
+      "score": 0.3113635182380676
+    },
+    {
+      "text": "i feel more like i am just shy and have some anxiety but nothing like aspergers",
+      "gold": "fear",
+      "pred": "anger",
+      "score": 0.31541821360588074
+    },
+    {
+      "text": "i even feel uncomfortable when i get more out of sex than the other person",
+      "gold": "fear",
+      "pred": "anger",
+      "score": 0.3495592772960663
+    },
+    {
+      "text": "i am a substrate but seek to be a product of something more than a corporeal feeling something mysteriously divine and ethereal",
+      "gold": "joy",
+      "pred": "love",
+      "score": 0.24437107145786285
+    },
+    {
+      "text": "ill come here if im feeling naughty",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.4531869888305664
+    },
+    {
+      "text": "i could entertain the thought i am depressed but i feel i am far too intelligent and rational to carry that diagnosis",
+      "gold": "joy",
+      "pred": "anger",
+      "score": 0.355385422706604
+    },
+    {
+      "text": "i feel more stupid every day on this job",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.3665814697742462
+    },
+    {
+      "text": "i feel hurt and im not in favor of this relationship and i told her fat ass that",
+      "gold": "sadness",
+      "pred": "anger",
+      "score": 0.3408326208591461
+    },
+    {
+      "text": "im beginning to hope and pray that the theme for next year will instead be one of unity as i feel for some strange reason that god is laying this word on my heart in a touching impacting manner",
+      "gold": "surprise",
+      "pred": "joy",
+      "score": 0.46790024638175964
+    },
+    {
+      "text": "i want to feel your wimpy pecker so badly i can barely stand it",
+      "gold": "fear",
+      "pred": "anger",
+      "score": 0.32653841376304626
+    }
+  ]
+}

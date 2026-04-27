@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-04-23T21:01:51.762420+00:00",
+  "model_name": "distilbert-base-multilingual-cased",
+  "output_dir": "models/emotion/bench/distil_uit_e3_focal",
+  "best_dir": "models/emotion/bench/distil_uit_e3_focal/best",
+  "labels": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "neutral",
+    "sadness",
+    "surprise"
+  ],
+  "train_distribution": {
+    "anger": 384,
+    "disgust": 1068,
+    "fear": 315,
+    "joy": 1572,
+    "neutral": 1032,
+    "sadness": 919,
+    "surprise": 246
+  },
+  "val_distribution": {
+    "anger": 48,
+    "disgust": 133,
+    "fear": 39,
+    "joy": 196,
+    "neutral": 129,
+    "sadness": 114,
+    "surprise": 30
+  },
+  "train_samples": 5536,
+  "val_samples": 689,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "batch_size": 8,
+  "epochs": 3.0,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "gradient_accumulation_steps": 1,
+  "use_class_weights": true,
+  "class_weights": {
+    "anger": 1.3529741764068604,
+    "disgust": 0.48646262288093567,
+    "fear": 1.6493397951126099,
+    "joy": 0.33049750328063965,
+    "neutral": 0.5034322142601013,
+    "sadness": 0.565334141254425,
+    "surprise": 2.11195969581604
+  },
+  "eval_result": {
+    "eval_loss": 0.7812199592590332,
+    "eval_accuracy": 0.5587808417997098,
+    "eval_macro_f1": 0.5125959042960415,
+    "eval_runtime": 50.2963,
+    "eval_samples_per_second": 13.699,
+    "eval_steps_per_second": 1.73,
+    "epoch": 3.0
+  }
+}

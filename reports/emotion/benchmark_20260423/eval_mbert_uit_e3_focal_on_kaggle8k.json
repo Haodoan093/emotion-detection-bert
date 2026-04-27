@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-04-24T11:12:05.846398+00:00",
+  "model": "models/emotion/bench/mbert_uit_e3_focal/best",
+  "device": "auto",
+  "samples": 806,
+  "metrics": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "love",
+      "neutral",
+      "sadness",
+      "surprise"
+    ],
+    "accuracy": 0.3933002481389578,
+    "macro_f1": 0.13021806769443517,
+    "per_label": {
+      "anger": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 110.0
+      },
+      "disgust": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "fear": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 93.0
+      },
+      "joy": {
+        "precision": 0.4780058651026393,
+        "recall": 0.5992647058823529,
+        "f1": 0.5318107667210441,
+        "support": 272.0
+      },
+      "love": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 67.0
+      },
+      "neutral": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "sadness": {
+        "precision": 0.41621621621621624,
+        "recall": 0.6581196581196581,
+        "f1": 0.5099337748344371,
+        "support": 234.0
+      },
+      "surprise": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        31,
+        0,
+        12,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        29,
+        0,
+        11,
+        53,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        163,
+        0,
+        35,
+        73,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        47,
+        0,
+        6,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        56,
+        0,
+        24,
+        154,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        15,
+        0,
+        5,
+        9,
+        0
+      ]
+    ],
+    "support": {
+      "anger": 110,
+      "disgust": 0,
+      "fear": 93,
+      "joy": 272,
+      "love": 67,
+      "neutral": 0,
+      "sadness": 234,
+      "surprise": 30
+    }
+  },
+  "errors": [
+    {
+      "text": "i had become incredibly bored of the cod forumula and mw left me feeling very unsure about the future of this series",
+      "gold": "fear",
+      "pred": "joy",
+      "score": 0.41975659132003784
+    },
+    {
+      "text": "i hope it will spark a list of your own and feel free to steal mine",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.4599095582962036
+    },
+    {
+      "text": "i feel shy that time",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.34880805015563965
+    },
+    {
+      "text": "i feel the most loved",
+      "gold": "love",
+      "pred": "joy",
+      "score": 0.5971313714981079
+    },
+    {
+      "text": "i dont know what i feel now or what should i called this feeling now its so weird for me",
+      "gold": "fear",
+      "pred": "joy",
+      "score": 0.37213072180747986
+    },
+    {
+      "text": "i feel wrecking so many doomed gestures but the soul lost in the senses climbs the stairs of the air sophia de mello breyner andresen",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.43780168890953064
+    },
+    {
+      "text": "i feel dumb and desperate bite my tongue as he bites in his talk until need rises then sweet in his beg a gigolo who belittles and strikes deathing blows to my generous but",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.429060697555542
+    },
+    {
+      "text": "i feel oddly nostalgic for some sensations from those times though i do not feel at all nostalgic for the times themselves",
+      "gold": "love",
+      "pred": "sadness",
+      "score": 0.3620719611644745
+    },
+    {
+      "text": "i never feel rushed when im with her it doesnt feel like i need to get what im saying out faster or else shell get bored",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.5852916836738586
+    },
+    {
+      "text": "i will never be a christian so the meaning of christmas to me is purely secular and when i am feeling rebellious a little bit pagan",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.48461291193962097
+    },
+    {
+      "text": "im left feeling grumpy and irritated far removed from being happy or merry over the nonsense argument as a whole",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.4324706792831421
+    },
+    {
+      "text": "i cant help but feel a little stunned not so much because shes around again but because shes around again and i feel like im all over again",
+      "gold": "surprise",
+      "pred": "sadness",
+      "score": 0.47618526220321655
+    },
+    {
+      "text": "i feel irritable and there are so many things that are bothering me even though i know they aren t a big enough deal to justify making me this crazy",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.5994687080383301
+    },
+    {
+      "text": "i wonder why i feel so violent towards them every so often",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.3801614046096802
+    },
+    {
+      "text": "i feel more like i am just shy and have some anxiety but nothing like aspergers",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.42265865206718445
+    },
+    {
+      "text": "i even feel uncomfortable when i get more out of sex than the other person",
+      "gold": "fear",
+      "pred": "sadness",
+      "score": 0.36489245295524597
+    },
+    {
+      "text": "i am now two week out from the surgery and feeling much better",
+      "gold": "joy",
+      "pred": "sadness",
+      "score": 0.42725110054016113
+    },
+    {
+      "text": "ill come here if im feeling naughty",
+      "gold": "love",
+      "pred": "sadness",
+      "score": 0.6671363115310669
+    },
+    {
+      "text": "i feel more stupid every day on this job",
+      "gold": "sadness",
+      "pred": "joy",
+      "score": 0.37460553646087646
+    },
+    {
+      "text": "i feel like a stubborn kid crossing my arms over my chest and pouting no more belly sites",
+      "gold": "anger",
+      "pred": "sadness",
+      "score": 0.5496707558631897
+    }
+  ]
+}
